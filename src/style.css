@@ -1,0 +1,54 @@
+#app {
+	margin: 0 auto;
+	border: 2px solid grey;
+	width: 350px;
+}
+header {
+	background: #CDDC39;
+	width: 350px;
+	color: white;
+	margin: 0;
+	padding: 12px 0;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+input {
+	margin-bottom: 12px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+footer {
+	background: #343d46;
+	width: 350px;
+	color: white;
+	text-align: center;
+}
+#tasks {
+	height: 400px;
+	padding: 5px;
+	overflow-y: scroll;
+}
+.card {
+	height: 40px;
+	width: 310px;
+	border: 1px solid black;
+	padding: 5px;
+	margin-bottom: 4px;
+}
+
+.completed-card {
+	text-decoration: line-through;
+}
+
+.card button {
+	background: #d2574e;
+	color: white;
+	float: right;
+	border: 1px solid grey;
+}
